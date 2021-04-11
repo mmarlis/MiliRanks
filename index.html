@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Military Ranks</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="code.js"></script>
+</head>
+<body>
+
+    <h1>Military Ranking</h1>
+
+
+        <form>
+        <input type="radio" name="rank" id="general" data-rank="general" data-color="blue" data-abbreviation="GEN"
+               checked="checked">
+        <label for="general"> General</label>
+
+        <br>
+
+        <input type="radio" name="rank" id="lieutenant" data-rank="lieutenant" data-color="green"
+               data-abbreviation="LTG">
+        <label for="lieutenant">Lieutenant</label>
+                    
+        <br>
+
+        <input type="radio" name="rank" id="private" data-rank="private" data-color="yellow" data-abbreviation="PVT">
+        <label for="private">Non-commissioned Officer</label>
+
+        <br>
+        <br>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName">
+
+        <br>
+        <br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName">
+
+        <br>
+        <br>
+
+        <button type="button" class="btn btn-dark">Submit</button>
+            
+    </form>
+
+    <p id="output"></p>
+<!--    <p id="ranks"></p>-->
+
+  
+
+
+
+
+
+
+
+
+</body>
+</html>
